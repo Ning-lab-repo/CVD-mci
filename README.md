@@ -12,4 +12,43 @@ R 4.4
 
 The description of the CVD-mci source
 
+Consensus clustering and survival analysis.R
+
+This code is used for consensus clustering and survival analysis.
+
+Feature reduction model selection.ipynb
+
+This code is used for model construction after feature reduction and selection of the optimal model.
+
+KNN imputation.ipynb
+
+This code is used for KNN imputation of missing values.
+
+Mediation causal inference.R
+
+This code is used for mediation causal inference.
+
+Model construction and ROC curve.ipynb
+
+This code is used for machine learning model construction and ROC curve plotting.
+
+NHANES data processing.ipynb
+
+This code is used for preprocessing NHANES data.
+
+Performance evaluation metrics.ipynb
+
+This code is used to calculate various model evaluation metrics.
+
+SHAP.ipynb
+
+This code is used to interpret machine learning models using the SHAP algorithm.
+
+Statistical analysis.ipynb
+
+This code is used for various statistical analyses.
+
+UKB data preprocessing.ipynb
+
+This code is used for preprocessing the UKB data.
 
