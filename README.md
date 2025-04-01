@@ -6,49 +6,49 @@ We developed a ML framework based on the NHANES database that enables mediation 
 
 The main requirements are listed below:
 
-Python 3.11
+* Python 3.11
 
-R 4.4
+* R 4.4
 
 # The description of the CVD-mci source
 
-Consensus clustering and survival analysis.R
+* Consensus clustering and survival analysis.R
 
-This code is used for consensus clustering and survival analysis.
+  This code is used for consensus clustering and survival analysis.
 
-Feature reduction model selection.ipynb
+* Feature reduction model selection.ipynb
 
-This code is used for model construction after feature reduction and selection of the optimal model.
+  This code is used for model construction after feature reduction and selection of the optimal model.
 
-KNN imputation.ipynb
+* KNN imputation.ipynb
 
-This code is used for KNN imputation of missing values.
+  This code is used for KNN imputation of missing values.
 
-Mediation causal inference.R
+* Mediation causal inference.R
 
-This code is used for mediation causal inference.
+  This code is used for mediation causal inference.
 
-Model construction and ROC curve.ipynb
+* Model construction and ROC curve.ipynb
 
-This code is used for machine learning model construction and ROC curve plotting.
+  This code is used for machine learning model construction and ROC curve plotting.
 
-NHANES data processing.ipynb
+* NHANES data processing.ipynb
 
-This code is used for preprocessing NHANES data.
+  This code is used for preprocessing NHANES data.
 
-Performance evaluation metrics.ipynb
+* Performance evaluation metrics.ipynb
 
-This code is used to calculate various model evaluation metrics.
+  This code is used to calculate various model evaluation metrics.
 
-SHAP.ipynb
+* SHAP.ipynb
 
-This code is used to interpret machine learning models using the SHAP algorithm.
+  This code is used to interpret machine learning models using the SHAP algorithm.
 
-Statistical analysis.ipynb
+* Statistical analysis.ipynb
 
-This code is used for various statistical analyses.
+  This code is used for various statistical analyses.
 
-UKB data preprocessing.ipynb
+* UKB data preprocessing.ipynb
 
-This code is used for preprocessing the UKB data.
+  This code is used for preprocessing the UKB data.
 
