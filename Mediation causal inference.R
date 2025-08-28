@@ -3,7 +3,7 @@ library(doParallel)
 library(dplyr)
 library(cit)
 library(progress)
-data <- read.csv("D:/临床数据/NHANES数据清洗/10年心因死亡数据.csv", check.names = FALSE)
+data <- read.csv("D:/临床数据/NHANES数据清洗/df1.csv", check.names = FALSE)
 L_factors <- data[, 7:21]
 L_factors <- apply(L_factors, 2, function(x) as.factor(as.numeric(as.factor(x)) - 1))
 L_continuous <- data[, 2:6, drop = FALSE]
