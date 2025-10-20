@@ -1,6 +1,6 @@
 # CVD-mci
 
-We developed a ML framework based on the NHANES database that enables mediation causal inference and the identification of CVD mortality subgroups in the general population. This framework requires only 10 common clinical variables to predict CVD mortality risk over the next 10 years, stratify mortality risk, and uncover potential mechanisms underlying transitions between different CVD mortality subgroups. These mediation causal relationships can be validated using the UKB regional dataset. 
+We developed a ML framework based on the NHANES database that enables mediation analysis and the identification of CVD mortality subgroups. This framework requires only 10 common clinical variables to predict CVD mortality risk over the next 10 years, stratify mortality risk, and uncover potential mechanisms underlying transitions between different CVD mortality subgroups. The identified mediation relationships and predictive performance were further validated in the UKB cohort, supporting the generalizability of the framework across populations. 
 
 # Requirements
 
@@ -20,13 +20,13 @@ The main requirements are listed below:
 
   This code is used for model construction after feature reduction and selection of the optimal model.
 
-* KNN imputation.ipynb
+* Imputation.ipynb
 
-  This code is used for KNN imputation of missing values.
+  This code is used for imputation of missing values.
 
-* Mediation causal inference.R
+* CIT.R
 
-  This code is used for mediation causal inference.
+  This code is used for mediation analysis.
 
 * Model construction and ROC curve.ipynb
 
